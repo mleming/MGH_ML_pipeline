@@ -3,8 +3,6 @@
 import os,sys,json,csv,glob
 from datetime import datetime
 
-#/home/mleming/Desktop/MGH_ML_pipeline/csv/edw_sql_results/all_brain_mri_test_group_medications/all_brain_mri_test_group_medications.csv
-#/home/mleming/Desktop/MGH_ML_pipeline/csv/edw_sql_results/all_brain_mri_test_group_medications/patient_id_to_medication.json
 
 working_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 csv_dir = os.path.join(working_dir,'csv','RPDR_supp_files')

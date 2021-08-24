@@ -3,9 +3,6 @@
 import os,sys,json,csv
 from datetime import datetime
 
-#/home/mleming/Desktop/MGH_ML_pipeline/csv/edw_sql_results/all_brain_mri_test_group_medications/all_brain_mri_test_group_medications.csv
-#/home/mleming/Desktop/MGH_ML_pipeline/csv/edw_sql_results/all_brain_mri_test_group_medications/patient_id_to_medication.json
-
 working_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.realpath(__file__))))
 csv_file =  os.path.join(working_dir,'csv','edw_sql_results','all_brain_mri_test_group_medications','all_brain_mri_test_group_medications.csv')
 output_json_filename = os.path.join(working_dir,'json','translation_files','patient_id_to_medication.json')
