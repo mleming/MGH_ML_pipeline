@@ -1,0 +1,13 @@
+{
+	"value_ranges" : {"SexDSC": ["MALE", "FEMALE"], 
+		"Test_Control": ["test", "control"],
+		"Ages": [50,1200]
+			},
+	"exclusions" : {
+			"AlzStage" : ["Test_Control"]
+		},
+	"labels" : {
+			"AlzStage" : ["CONTROL","AD","MCI"],
+			"SexDSC": ["MALE","FEMALE"]
+		}
+}
